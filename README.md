@@ -1,5 +1,6 @@
 # Smart Trash
-Smart Trash is an android application which allow users to recycle at ease while getting rewarded.
+Smart Trash is an android application which allow users to recycle at ease while getting rewarded. The purpose of this app is to encourage more people to
+start recycling by making recycling simpler and rewarding.
 
 # Members and Project Overview
 This project is done by 2 people, Saravanan and myself. I will sharing more about this project below.
