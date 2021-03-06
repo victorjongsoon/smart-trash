@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Smart Trash</string>
+    <string name="google_maps_key">AIzaSyDiIoFsKx42k8TcQLQoOLwHltj-8R4IOUE</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="title_home">Home</string>
+    <string name="title_report">Report</string>
+    <string name="title_nearme">Near Me</string>
+    <string name="title_settings">Settings</string>
+    <string name="new_user_register_now">New user? Register Now</string>
+    <string name="login">Login</string>
+    <string name="login_to_smart_trash">Login to Smart Trash!</string>
+    <string name="forgot_password_ref">Forgot Password ?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="we_need_your_registered_email_address_to_send_the_instructions_to_reset_your_password">We need your registered email address to send the instructions to reset your password.</string>
+    <string name="register_account">Register Account!</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="user_name">User Name</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="reset">Reset</string>
+    <string name="email_address">Email Address</string>
+    <string name="remove_user">Remove User</string>
+    <string name="password_mangement">Password Mangement</string>
+    <string name="enter_your_new_password_here">Enter your new password here...</string>
+</resources>

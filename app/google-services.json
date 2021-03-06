@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "822701472212",
+    "firebase_url": "https://smart-trash-160501.firebaseio.com",
+    "project_id": "smart-trash-160501",
+    "storage_bucket": "smart-trash-160501.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822701472212:android:a6c7e36b0f888e08",
+        "android_client_info": {
+          "package_name": "sg.edu.np.team2.smarttrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822701472212-o4ee2i3fqqd930k6pkfsg3r19lkv13di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Re_Fz-7DTf4Ll67ulF4n18aWzFaXcAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822701472212-o4ee2i3fqqd930k6pkfsg3r19lkv13di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

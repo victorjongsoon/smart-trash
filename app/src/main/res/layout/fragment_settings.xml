@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/contentBodyColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/viewParent.headerText"
+            android:text="@string/settings" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                app:civ_border_color="@color/imageBorderColor"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/usernameTextView"
+                    style="@style/viewParent.headerText"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/username"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/emailTextView"
+                    style="@style/viewParent.headerText"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/email_address"
+                    android:textColor="#5D5C5C"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_marginTop="32dp"
+                android:text="@string/password_mangement" />
+
+            <EditText
+                android:id="@+id/genInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:text="@string/enter_your_new_password_here" />
+
+            <TextView
+                android:id="@+id/changePassword"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_edit_password"
+                android:text="@string/change_password" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/profile" />
+
+            <TextView
+                android:id="@+id/removeUser"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_edit_profile"
+                android:text="@string/remove_user" />
+
+            <TextView
+                android:id="@+id/logOut"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_logout"
+                android:text="@string/logout" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
